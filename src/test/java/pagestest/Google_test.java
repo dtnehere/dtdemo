@@ -12,7 +12,7 @@ public class Google_test {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
-        driver.quit();
+
 
 
 
@@ -24,5 +24,6 @@ public class Google_test {
         g.setup_google();
         Thread.sleep(3000);
         e.search_google();
+
     }
 }
